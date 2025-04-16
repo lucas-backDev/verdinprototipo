@@ -19,11 +19,12 @@ export const Header = () => {
                     <h1 className="text-2xl font-extrabold text-green-600 tracking-wide">
                         Verd Sabido
                     </h1>
+                </div>
 
 {/* 
 //  LOADING DO LOGIN
 */}
-                </div>
+                
                 <ClerkLoading>
                     <Loader className="h-5 w-5 text-muted-foreground animate-spin" />
                 </ClerkLoading>
