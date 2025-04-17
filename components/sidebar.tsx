@@ -30,12 +30,12 @@ export const Sidebar = ({ className }: Props) => {
                 <SidebarItem 
                 label="RANKING" 
                 href="/ranking"
-                iconSrc="/leaderboard.svg"
+                iconSrc="/trophy.svg"
                 />
                 <SidebarItem 
                 label="MISSÕES" 
                 href="/quests"
-                iconSrc="/target.svg"
+                iconSrc="/quest.svg"
                 />
                 <SidebarItem 
                 label="LOJA" 
