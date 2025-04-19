@@ -1,7 +1,11 @@
 import { FeedWrapper } from "@/components/feed-wrapper";
 import { StickyWrapper } from "@/components/sticky-wrapper";
+import { Unit } from "./unit";
 import { Header } from "./header";
 import { UserProgress } from "@/components/user-progress";
+import { LessonButton } from "./lesson-button";
+import { title } from "process";
+
 
 const LearnPage = () => {
     return (
@@ -16,8 +20,10 @@ const LearnPage = () => {
             </StickyWrapper>
             <FeedWrapper>
                 <Header title="Meio Ambiente" />
-                <div className="space-y-4">
-                    <div className="" />
+                <div className="space-y-4 mb-10">
+                    <Unit title="" description="" />
+                    <div className="space-y-4 mb-10" />
+                    <LessonButton />
                 </div>
             </FeedWrapper>
         </div>
