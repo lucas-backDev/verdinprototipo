@@ -5,10 +5,7 @@ type Props = {
   description: string;
 }
 
-export const Unit = ({
-  title,
-  description,
-}: Props) => {
+export const Unit = () => {
   return (
     <>
       <UnitBanner title="Unidade 1" description="Conscientização" />
