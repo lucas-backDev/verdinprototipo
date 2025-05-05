@@ -5,7 +5,6 @@ import { Header } from "./header";
 import { UserProgress } from "@/components/user-progress";
 import { LessonButton } from "./lesson-button";
 
-
 const LearnPage = () => {
     return (
         <div className="flex flex-row-reverse gap-[48px] px-6">

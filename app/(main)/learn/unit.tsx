@@ -1,6 +1,5 @@
 import { UnitBanner } from "./unit-banner"
 
-
 export const Unit = () => {
   return (
     <>
