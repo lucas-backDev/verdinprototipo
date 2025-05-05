@@ -21,7 +21,7 @@ const LearnPage = () => {
             <FeedWrapper>
                 <Header title="Meio Ambiente" />
                 <div className="space-y-4 mb-10">
-                    <Unit title="" description="" />
+                    <Unit/>
                     <div className="space-y-4 mb-10" />
                     <LessonButton />
                 </div>
