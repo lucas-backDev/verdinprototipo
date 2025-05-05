@@ -4,7 +4,6 @@ import { Unit } from "./unit";
 import { Header } from "./header";
 import { UserProgress } from "@/components/user-progress";
 import { LessonButton } from "./lesson-button";
-import { title } from "process";
 
 
 const LearnPage = () => {
